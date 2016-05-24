@@ -1,0 +1,37 @@
+{
+  "name": "eddystone-yunzi-scanner",
+  "version": "0.0.1",
+  "description": "Scan for Eddystone Yunzi beacon's using Node.js. It returns motion, light, temperature and other parameters and transmit them via websocket",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint *.js lib/*.js examples/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexisMasseron/EddystoneYunziScanner.git"
+  },
+  "keywords": [
+    "Eddystone",
+    "Beacon",
+    "Physical Web",
+    "Yunzi",
+    "Sensoro",
+    "Websocket"
+  ],
+  "author": "Alexis Masser <amasseron@aubay.com>", "Antoine Desnoyer", "Based on "sandeepmistry Eddystone scanner project"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexisMasseron/EddystoneYunziScanner/issues"
+  },
+  "homepage": "https://github.com/AlexisMasseron/EddystoneYunziScanner",
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "noble": "^1.1.0",
+    "eddystone-url-encoding": "^1.0.0",
+    "websocket": "1.0.23",
+    "ws": "1.0.1"
+  }
+}
