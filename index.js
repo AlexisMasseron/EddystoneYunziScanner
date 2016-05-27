@@ -1,3 +1,3 @@
-var EddystoneBeaconScanner = require('./lib/eddystone-beacon-scanner');
+var EddystoneYunziScanner = require('./lib/eddystone-yunzi-scanner');
 
-module.exports = new EddystoneBeaconScanner();
+module.exports = new EddystoneYunziScanner();
