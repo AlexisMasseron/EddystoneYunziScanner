@@ -1,4 +1,4 @@
-var EddystoneYunziScanner = require('eddystone-yunzi-scanner'); // use require('eddystone-yunzi-scanner), if installed from npm
+var EddystoneYunziScanner = require('eddystone-yunzi-scanner'); 
 
 EddystoneYunziScanner.on('found', function(beacon){
 	console.log('Frame content:\n', JSON.stringify(beacon, null, 2));
