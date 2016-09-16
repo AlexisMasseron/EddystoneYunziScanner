@@ -1,6 +1,6 @@
 {
   "name": "eddystone-yunzi-scanner",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Scan for Eddystone Yunzi beacon's using Node.js. It returns motion, light, temperature and other parameters and transmit them via websocket",
   "main": "index.js",
   "scripts": {
