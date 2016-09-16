@@ -27,6 +27,7 @@ node scan.js
   * ```sensor_rssi```- Beacon strength signal indicator in db.
   * ```sensor_battery``` - Beacon battery indicator in %.
   * ```sensor_time``` - Timestamp.
+  * ```raspberry_id``` - Raspberry's ID. It's recommended to comment it if you are not using one.
 
 ##Websocket connexion:
 ```javascript
