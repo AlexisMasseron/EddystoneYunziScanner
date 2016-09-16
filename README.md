@@ -23,7 +23,7 @@ node scan.js
   * ```sensor_id``` - Beacon's ID.
   * ```sensor_motion``` - Binary element so that 1 = moving / 0 = still.
   * ```sensor_light``` - Luminous flux in lux.
-  * ```sensor_temp``` - Temperature in °C. The raw datas needs to be devided by 256 then subtracted by 10 to be correct.
+  * ```sensor_temp``` - Temperature in °C. 
   * ```sensor_rssi```- Beacon strength signal indicator in db.
   * ```sensor_battery``` - Beacon battery indicator in %.
   * ```sensor_time``` - Timestamp.
